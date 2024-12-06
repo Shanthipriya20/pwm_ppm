@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ppm_ppm.srcs/sources_1/new/pwm_ppm.v" \
+"../../../../ppm_ppm.srcs/sim_1/new/pwm_ppm_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
